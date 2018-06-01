@@ -12,7 +12,7 @@ public class SpringOpenshiftApplication {
 
 	@GetMapping("/")
 	public String redirect() {
-		return "Welcome Page....";
+		return "@ Welcome Page @";
 	}
 
 	@GetMapping("/{name}")
